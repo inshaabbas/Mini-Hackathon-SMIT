@@ -285,8 +285,70 @@
 
 .footer{
     background-color: rgb(41, 38, 38);
-    width: 1005;
+    width: 100%;
     height: 250px;
     margin-top: 80px;
     color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.footer-logo{
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.footer-logo p{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.footer-icons{
+
+    margin-top: 25px;
+}
+
+.twitter{
+    margin-bottom: 8px;
+    width: 12px;
+}
+
+.youtube{
+    margin-bottom: 8px;
+}
+
+
+.company p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.company a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.support a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.support p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.update{
+    margin-right: 20px;
+}
+
+.update input{
+    margin-top: 20px
 }
