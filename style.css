@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: inter;
+}
+
+.header{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+.nav-links{
+    padding: 50px;
+    margin-right: 80px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-register-now{
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+/* Hero section Styling */
+
+.hero-section{
+    background-color: rgb(244, 241, 241);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hero-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    flex: 1;
+    padding: 30px;
+    line-height: 55px;
+    margin-left: 50px;
+}
+
+.hero-img{
+    flex: 1;
+}
+.hero-text h1{
+    font-size: 50px;
+}
+
+.hero-text p{
+    font-size: 15px;
+}
+
+.hero-btn{
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    height: 40px;
+}
+
+.client-section{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 40px;
+    line-height: 35px;
+}
+
+.client-text h1{
+    font-size: 25px;
+}
+
+.client-icon img{
+    padding: 10px 60px;
+}
+
+/* community section */
+
+.commu-section{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+
+.commu-text h4{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.commu-text p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.commu-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commu-card-1{
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    height: 300px;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card1-text p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.card1-text h2{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.commu-card-2{
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    height: 300px;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.card2-text p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.card2-text h2{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.commu-card-3{
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    height: 300px;
+    margin: 50px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.card3-text p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.card3-text h2{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/* Unlock Section */
+
+.unlock-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.unlock-text{
+    width: 530px;
+    margin-left: 20px;
+}
+.unlock-text p{
+    margin-top: 10px;
+}
+
+.btn-unlock{
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    height: 40px;
+}
+
+/* Acheivements Section */
+
+.Achievements{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.counts-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 20px;
+  width: 490px;
+}
+
+.count-icon-1 , count-icon-2 ,   img{
+    margin-left: 10px;
+}
+
+.count-icon-3 img{
+    margin-left: 19px;
+}
+
+.count-icon-4 img{
+    margin-left: 12px;
+}
+
+.achievements-text h2{
+    font-size: 25px;
+}
+
+.frame{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+.frame h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.demo{
+    border: none;
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* footer section */
+
+.footer{
+    background-color: rgb(41, 38, 38);
+    width: 1005;
+    height: 250px;
+    margin-top: 80px;
+    color: white;
+}
